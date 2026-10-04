@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Africa - Sign Up</title>
+</head>
+
+<body id="top">
+
+    <!-- Global Navigation -->
+    <header>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            |
+            <a href="form.html">Application Form</a>
+        </nav>
+
+        <hr>
+
+        <h1>AltSchool Africa</h1>
+    </header>
+
+    <main>
+
+        <section aria-labelledby="signup-heading">
+
+            <h2 id="signup-heading">Sign Up</h2>
+
+            <p>
+                Create an account to get started on your learning journey.
+            </p>
+
+            <aside>
+                <strong>Important:</strong>
+                Your name will appear on your certificate exactly as entered.
+            </aside>
+
+            <br>
+
+            <form action="#" method="post">
+
+                <!-- Email -->
+                <fieldset>
+                    <legend>Account Information</legend>
+
+                    <p>
+                        <label for="email">Email</label>
+                        <br>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="john.doe@example.com"
+                            required
+                            autocomplete="email"
+                        >
+                    </p>
+
+                    <!-- First Name -->
+                    <p>
+                        <label for="first-name">First name</label>
+                        <br>
+                        <input
+                            type="text"
+                            id="first-name"
+                            name="first_name"
+                            placeholder="John"
+                            required
+                            autocomplete="given-name"
+                        >
+                    </p>
+
+                    <!-- Last Name -->
+                    <p>
+                        <label for="last-name">Last name</label>
+                        <br>
+                        <input
+                            type="text"
+                            id="last-name"
+                            name="last_name"
+                            placeholder="Doe"
+                            required
+                            autocomplete="family-name"
+                        >
+                    </p>
+
+                    <!-- Phone Number -->
+                    <p>
+                        <label for="phone">Phone number</label>
+                        <br>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="+234567890"
+                            required
+                            autocomplete="tel"
+                        >
+                    </p>
+
+                    <!-- Password -->
+                    <p>
+                        <label for="password">Password</label>
+                        <br>
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="********"
+                            required
+                            minlength="8"
+                            autocomplete="new-password"
+                        >
+                    </p>
+
+                </fieldset>
+
+                <br>
+
+                <!-- Terms and Conditions -->
+                <fieldset>
+                    <legend>Terms and Conditions</legend>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="terms"
+                            name="terms"
+                            required
+                        >
+
+                        <label for="terms">
+                            I agree to the
+                            <a href="#" target="_blank">Terms of Use</a>
+                            and acknowledge that I have read the
+                            <a href="#" target="_blank">Privacy Policy</a>.
+                        </label>
+                    </p>
+
+                </fieldset>
+
+                <br>
+
+                <!-- Submit -->
+                <button type="submit">
+                    Create account →
+                </button>
+
+            </form>
+
+            <hr>
+
+            <!-- Alternative Sign Up -->
+            <section aria-labelledby="alternative-signup">
+                <h3 id="alternative-signup">Or</h3>
+
+                <button type="button">
+                    Login with Google
+                </button>
+            </section>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+
+        <h2>Contact Information</h2>
+
+        <address>
+            Lagos, Nigeria
+        </address>
+
+        <p>
+            &copy; 2026 Mujahid Abdul Waheed. All rights reserved.
+        </p>
+
+        <p>
+            <a href="#top">Back to Top ↑</a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
